@@ -1,0 +1,24 @@
+body{
+    padding: 100px;
+}
+.submit-area{
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px grey;
+    padding: 40px;
+    font-family: poppins;
+    font-weight: 300;
+}
+h1, h4{
+    font-family: poppins;
+    font-weight: 300;
+}
+
+.submit-area button{
+    padding: 10px 35px;
+    border-radius: 6px;
+    background-color: #21B573;
+    color: white;
+    border: none;
+    font-weight: 300;
+}
