@@ -14,11 +14,43 @@ h1, h4{
     font-weight: 300;
 }
 
-.submit-area button{
-    padding: 10px 35px;
+.login-btn{
+    padding: 9px 20px;
     border-radius: 6px;
     background-color: #21B573;
     color: white;
     border: none;
+    margin-top: 20px;
+}
+
+#transaction-area{
+    display: none;
+}
+
+.deposit{
+
+background-image: linear-gradient(to right, #4289FF 0%, #3F07F8 100%);
+}
+
+.withdraw{
+    
+    background-image: linear-gradient(to bottom, lightsalmon 0%, salmon 100%);
+}
+
+.balance{
+    
+    background-image: linear-gradient(to right, #FF9C35 0%, #ffd019 100%);
+}
+
+.status{
+    margin: 0 20px;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+    font-family: poppins;
+    font-weight: 200;
+}
+
+.transactionArea input{
     font-weight: 300;
 }
