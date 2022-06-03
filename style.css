@@ -1,7 +1,8 @@
-body{
+body {
     padding: 100px;
 }
-.submit-area{
+
+.submit-area {
     margin-top: 50px;
     border-radius: 15px;
     box-shadow: 5px 5px 10px grey;
@@ -9,12 +10,9 @@ body{
     font-family: poppins;
     font-weight: 300;
 }
-h1, h4{
-    font-family: poppins;
-    font-weight: 300;
-}
 
-.login-btn{
+
+.login-btn {
     padding: 9px 20px;
     border-radius: 6px;
     background-color: #21B573;
@@ -23,34 +21,30 @@ h1, h4{
     margin-top: 20px;
 }
 
-#transaction-area{
+
+#transaction-area {
     display: none;
 }
 
-.deposit{
+.deposit {
 
-background-image: linear-gradient(to right, #4289FF 0%, #3F07F8 100%);
+    background-image: linear-gradient(to right, #4289FF 0%, #3F07F8 100%);
 }
 
-.withdraw{
-    
+.withdraw {
+
     background-image: linear-gradient(to bottom, lightsalmon 0%, salmon 100%);
 }
 
-.balance{
-    
+.balance {
+
     background-image: linear-gradient(to right, #FF9C35 0%, #ffd019 100%);
 }
 
-.status{
+.status {
     margin: 0 20px;
     padding: 30px;
     color: white;
     border-radius: 10px;
-    font-family: poppins;
-    font-weight: 200;
-}
 
-.transactionArea input{
-    font-weight: 300;
 }
