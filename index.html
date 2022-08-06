@@ -121,9 +121,16 @@
     const depositButton = document.getElementById('depositBtn');
     depositButton.addEventListener('click', function () {
       const depositNumber = getInputNumber('depositAmount')
-      updateDepositeAndBalance('currentDeposit', depositNumber)
-      updateDepositeAndBalance('currentBalance', depositNumber)
+      
+      
+      if(depositNumber < 0){
+        alert("Deposit amount cannot be negative");
+      }
 
+      else{
+        updateDepositeAndBalance('currentDeposit', depositNumber);
+        updateDepositeAndBalance('currentBalance', depositNumber);
+      }
 
       document.getElementById('depositAmount').value = "";
     })
@@ -144,8 +151,16 @@
     withdrawButton.addEventListener('click', function () {
 
       const withdrawNumber = getInputNumber('withdrawAmount')
-      updateDepositeAndBalance('currentWithdraw', withdrawNumber);
-      updateDepositeAndBalance('currentBalance', -1 * withdrawNumber);
+      
+
+      if(withdrawNumber < 0){
+        alert("Withdraw number cannot be negative")
+      }
+
+      else{
+        updateDepositeAndBalance('currentWithdraw', withdrawNumber);
+        updateDepositeAndBalance('currentBalance', -1 * withdrawNumber);
+      }
       document.getElementById('withdrawAmount').value = "";
     })
 
